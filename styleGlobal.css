@@ -1,11 +1,12 @@
 html{
     font-size: 62.5%;
     letter-spacing: 0.1%;
-    font-family: 'Balsamiq Sans', cursive;
-
 }
 
+
+
 body{
+    font-family: 'Balsamiq Sans', cursive;
     background-color: #364546;
     color: red;
     font-size: 1.4rem;
@@ -83,9 +84,12 @@ nav{
     font-size: 1.8rem;
 }
 
-.Menu p{
+.Menu a {
+    text-decoration: none;
     margin-left: 30px;
+    color: aliceblue;
 }
+
 /*----------- Background -----------*/
 .background{
     height: 75%;
@@ -96,6 +100,8 @@ nav{
     background-color: #343434;
     margin-top: 20px;
 }
+
+
 
 /*----------- FOOTER -----------*/
 footer{
