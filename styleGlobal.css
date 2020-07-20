@@ -71,6 +71,7 @@ header{
 .title{
     font-size: 3rem;
     letter-spacing: 0.8rem;
+    margin-right: 10%;
 }
 /*----------- NAV -----------*/
 nav{
