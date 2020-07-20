@@ -1,5 +1,5 @@
 html{
-    font-size: 62.5%;
+    font-size: 1.2vh;
     letter-spacing: 0.1%;
 }
 
@@ -38,6 +38,11 @@ header{
     filter:progid:DXImageTransform.Microsoft.Shadow(color=#00000093, Direction=180, Strength=6);
 }
 
+.imgWH{
+    width: 15vw;
+    height: 15vh;
+}
+
 .separator{
     margin-top: 0.1%;
     margin-bottom: 0.1%;
@@ -64,7 +69,7 @@ header{
 }
 
 .title{
-    font-size: 2.5rem;
+    font-size: 3rem;
     letter-spacing: 0.8rem;
 }
 /*----------- NAV -----------*/
@@ -81,7 +86,7 @@ nav{
 .Menu{
     display: flex;
     flex-direction: row;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
 }
 
 .Menu a {

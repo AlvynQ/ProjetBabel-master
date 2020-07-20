@@ -14,14 +14,6 @@ html{
     margin-top: 30px;
 }
 
-.background article{
-    padding: 10px 0;
-}
-
-.background article img{
-    width: 150px;
-}
-
 /*----------- SECTION INFO MAGAZINE-----------*/
 .infoMag{
     display: flex;
