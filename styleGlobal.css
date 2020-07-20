@@ -1,0 +1,108 @@
+html{
+    font-size: 62.5%;
+    letter-spacing: 0.1%;
+    font-family: 'Balsamiq Sans', cursive;
+
+}
+
+body{
+    background-color: #364546;
+    color: red;
+    font-size: 1.4rem;
+    height: 100vh;
+    width: 100vw;
+    padding:0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    box-sizing: border-box;
+    color: white;
+    border:2px solid rgba(48, 41, 41, 0.137) ;
+}
+/*----------- HEADER -----------*/
+header{
+    display: flex;
+    align-items: center;
+    background-color: #393b3c;
+    height: 50px;
+    justify-content: space-between;
+    margin-bottom: 0.2%;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    -moz-box-shadow: 0px 2px 6px 0px #00000093;
+    -webkit-box-shadow: 0px 2px 6px 0px #00000093;
+    -o-box-shadow: 0px 2px 6px 0px #00000093;
+    box-shadow: 0px 2px 6px 0px #00000093;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#00000093, Direction=180, Strength=6);
+}
+
+.separator{
+    margin-top: 0.1%;
+    margin-bottom: 0.1%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+	height: 2px;
+	width: 80%;
+	background-color: #868686;
+}
+
+.separator2{
+    margin-top: 0.1%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+	height: 2px;
+	width: 40%;
+	background-color: #868686;
+}
+
+.babel{
+    color: red;
+}
+
+.title{
+    font-size: 2.5rem;
+    letter-spacing: 0.8rem;
+}
+/*----------- NAV -----------*/
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #484848;
+    height: 50px;
+    justify-content: space-between;
+    border-top:1px solid rgba(27, 25, 25, 0.548);
+    border-bottom:1px solid rgba(27, 25, 25, 0.548);
+}
+
+.Menu{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.8rem;
+}
+
+.Menu p{
+    margin-left: 30px;
+}
+/*----------- Background -----------*/
+.background{
+    height: 75%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #343434;
+    margin-top: 20px;
+}
+
+/*----------- FOOTER -----------*/
+footer{
+    background-color: #4f4c4c;
+    color: #373535;
+    padding: 5px 0;
+    padding-left: 75px;
+}
+
+
