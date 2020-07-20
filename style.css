@@ -70,6 +70,46 @@ nav{
     width: 150px;
 }
 
+/*----------- SECTION INFO MAGAZINE-----------*/
+.infoMag{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.infoMag div img{
+    height: auto;
+    width: 300px;
+
+}
+
+.infoMag div{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-right: 50px;
+}
+.infoMag div h1{
+    text-align: center;
+    width: 200px;
+    font-size: 2.5em;
+    margin-left: 40px;
+    border-bottom: 2px rgba(196,196,196,0.5) solid;
+}
+
+.infoMag div ul{
+    list-style: none;
+    padding: 0;
+    font-size: 1.3em;
+}
+/*----------- CLASSE SPECIALE -----------*/
+.separateurV{
+    height: 275px;
+    margin: auto 0px auto 0px;
+    width: 20px;
+    border-left: 2px rgba(0,0,0,0.5) solid;
+}
+
 /*----------- FOOTER -----------*/
 footer{
     background-color: #4f4c4c;
