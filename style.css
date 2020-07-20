@@ -1,0 +1,81 @@
+/* Tu pensais sérieusement que t'allais avoir un truc tout prêt ? */
+
+/* Allez va bosser au lieu de fouiller ! */
+
+body{
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: #364546;
+    color: red;
+    font-size: 12px;
+    height: 100vh;
+    width: 100vw;
+    padding:0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    box-sizing: border-box;
+    color: white;
+}
+/*----------- HEADER -----------*/
+header{
+    display: flex;
+    align-items: center;
+    background-color: #393b3c;
+    height: 50px;
+    justify-content: space-between;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.babel{
+    color: red;
+}
+
+.title{
+    font-size: xx-large;
+}
+/*----------- NAV -----------*/
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #484848;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.Menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.Menu p{
+    margin-left: 30px;
+}
+/*----------- SECTION -----------*/
+.VueEnsemble{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #343434;
+    margin-top: 30px;
+}
+
+.VueEnsemble article{
+    padding: 10px 0;
+}
+
+.VueEnsemble article img{
+    width: 150px;
+}
+
+/*----------- FOOTER -----------*/
+footer{
+    background-color: #4f4c4c;
+    color: #373535;
+    padding: 5px 0;
+    padding-left: 75px;
+}
+
+
