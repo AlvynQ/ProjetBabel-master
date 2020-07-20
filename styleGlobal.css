@@ -1,12 +1,12 @@
 html{
     font-size: 1.2vh;
     letter-spacing: 0.1%;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 
 
 body{
-    font-family: 'Balsamiq Sans', cursive;
     background-color: #364546;
     color: red;
     font-size: 1.4rem;
@@ -16,7 +16,7 @@ body{
     margin: 0;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 90%;
     box-sizing: border-box;
     color: white;
     border:2px solid rgba(48, 41, 41, 0.137) ;
@@ -66,6 +66,7 @@ header{
 
 .babel{
     color: red;
+    margin-left: 2%;
 }
 
 .title{
@@ -101,10 +102,11 @@ nav{
     height: 75%;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     background-color: #343434;
     margin-top: 20px;
+
 }
 
 

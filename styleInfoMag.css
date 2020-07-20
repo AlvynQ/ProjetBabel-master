@@ -4,15 +4,6 @@ html{
     font-family: 'Balsamiq Sans', cursive;
 
 }
-/*----------- SECTION -----------*/
-.background{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: #343434;
-    margin-top: 30px;
-}
 
 /*----------- SECTION INFO MAGAZINE-----------*/
 .infoMag{
@@ -35,8 +26,8 @@ html{
 }
 .infoMag div h1{
     text-align: center;
-    width: 200px;
-    font-size: 2.5em;
+    width: 20%;
+    font-size: 2.5rem;
     margin-left: 40px;
     border-bottom: 2px rgba(196,196,196,0.5) solid;
 }
@@ -44,6 +35,6 @@ html{
 .infoMag div ul{
     list-style: none;
     padding: 0;
-    font-size: 1.3em;
+    font-size: 1.3rem;
 }
 
