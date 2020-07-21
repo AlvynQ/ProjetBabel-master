@@ -8,7 +8,6 @@ html{
 
 body{
     background-color: #0f4c75;
-    color: red;
     font-size: 1.4rem;
     height: 100vh;
     width: 100vw;
@@ -38,25 +37,27 @@ header{
     filter:progid:DXImageTransform.Microsoft.Shadow(color=#00000093, Direction=180, Strength=6);
 }
 
-.imgWH{
+.imgLogo{
     width: 15vw;
     height: 15vw;
+    padding-left: 5%;
 }
 
-.imgProfileEnd{
+.imgProfileContainer{
+    width: auto;
+    height: auto;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     padding-right: 1%;
 }
 
 .imgProfie{
-
     width: 20%;
     height: 20%;
 }
 
 .separator{
-    margin-bottom: 0.1%;
+
     margin-right: auto;
     margin-left: auto;
     display: flex;
@@ -71,9 +72,11 @@ header{
 }
 
 .title{
+    margin-left: auto;
+    margin-right: auto;
     font-size: 3rem;
     letter-spacing: 0.8rem;
-    margin-right: 10%;
+
 }
 /*----------- NAV -----------*/
 nav{
@@ -117,7 +120,7 @@ nav{
     flex-wrap: nowrap;
     justify-content: center;
     background-color: #173d57;
-    margin-top: 1%;
+    margin-top: 0.5%;
 
 }
 
