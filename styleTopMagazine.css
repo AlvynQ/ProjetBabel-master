@@ -22,10 +22,11 @@ html{
 /*----------- SECTION -----------*/
 
 .topMagazineSection{
-    margin-top: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    margin-top: auto;
+
 }
 
 .article{
