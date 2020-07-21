@@ -1,4 +1,5 @@
 html{
+    font-size: 1.2vw;
     font-size: 1.2vh;
     letter-spacing: 0.1%;
     font-family: 'Open Sans', sans-serif;
@@ -7,8 +8,6 @@ html{
 body{
     background-color: #0f4c75;
     font-size: 1.4rem;
-    height: 100vh;
-    width: 100vw;
     padding:0;
     margin: 0;
     margin-left: auto;
@@ -16,24 +15,28 @@ body{
     width: 90%;
     box-sizing: border-box;
     color: white;
-    border:2px solid rgba(48, 41, 41, 0.137) ;
+    border:2px solid #1b262c27;
+    box-shadow:8px 0 8px -10px #000000,-8px 0 8px -10px #000000;
+    
 }
 
 /*----------- BARRE DE RECHERCHE -----------*/
 .barreRecherche, .btnSearch{
     position: relative;
-    padding: 10px;
+ 
 }
 
 .barreRecherche{
+    padding-top: 4px;
     border-radius: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 4px;
 }
 .barreRecherche:focus{
-    box-shadow: 0 0 5px 2px #b0e0ee;
-    border: 2px solid #bebede;
+    box-shadow: 0 0 5px 2px #5e5d97;
+    border: 2px solid #757379;
 }
 .btnSearch {
+    padding-bottom: 4px;
 	border:1px solid transparent;
 	background-color: transparent;
 	display: inline-block;
@@ -45,8 +48,8 @@ body{
 .btnSearch::after{
     content: "X";
     display: block;
-	width: 15px;
-	height: 15px;
+	width: 10px;
+	height: 10px;
 	position: absolute;
 	background-color: #FA9595;
 	z-index:1;
@@ -54,7 +57,8 @@ body{
 	top: 0;
 	bottom: 0;
 	margin: auto;
-	padding: 2px;
+    padding-bottom: 4px;
+    padding-left: 2px;
 	border-radius: 50%;
 	text-align: center;
 	color: white;
@@ -168,7 +172,7 @@ nav{
     flex-wrap: nowrap;
     justify-content: center;
     background-color: #173d57;
-    margin-top: 0.5%;
+    margin-top: 0.2%;
 
 }
 
@@ -178,7 +182,7 @@ nav{
 footer{
     z-index: 5;
     background-color: #1b262c;
-    color: #ffffff;
+    color: #1e608b;
     padding: 5px 0;
     padding-left: 75px;
 }
