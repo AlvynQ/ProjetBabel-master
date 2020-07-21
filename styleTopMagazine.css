@@ -26,7 +26,6 @@ html{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-top: auto;
     padding-top: 20px;
 }
 
