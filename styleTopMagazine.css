@@ -26,6 +26,7 @@ html{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    margin-top: 10px;
 }
 
 .article{
@@ -34,7 +35,6 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 a{
