@@ -1,7 +1,7 @@
 html{
     font-size: 1.2vh;
     letter-spacing: 0.1%;
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -113,6 +113,7 @@ nav{
 
 /*----------- FOOTER -----------*/
 footer{
+    z-index: 5;
     background-color: #1b262c;
     color: #ffffff;
     padding: 5px 0;
