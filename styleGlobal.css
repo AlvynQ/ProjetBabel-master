@@ -26,7 +26,7 @@ header{
     display: flex;
     align-items: center;
     background-color: #1b262c;
-    height: 50px;
+    height: 80px;
     justify-content: space-between;
     margin-bottom: 0.2%;
     border-bottom-right-radius: 15px;
@@ -40,28 +40,29 @@ header{
 
 .imgWH{
     width: 15vw;
-    height: 15vh;
+    height: 15vw;
+}
+
+.imgProfileEnd{
+    display: flex;
+    justify-content: end;
+    padding-right: 1%;
+}
+
+.imgProfie{
+
+    width: 20%;
+    height: 20%;
 }
 
 .separator{
-    margin-top: 0.1%;
     margin-bottom: 0.1%;
     margin-right: auto;
     margin-left: auto;
     display: flex;
 	height: 2px;
 	width: 80%;
-	background-color: #868686;
-}
-
-.separator2{
-    margin-top: 0.1%;
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-	height: 2px;
-	width: 40%;
-	background-color: #868686;
+	background-color: #656081;
 }
 
 .babel{
@@ -83,6 +84,10 @@ nav{
     justify-content: space-between;
     border-top:1px solid rgba(27, 25, 25, 0.548);
     border-bottom:1px solid rgba(27, 25, 25, 0.548);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
 .Menu{
@@ -97,6 +102,14 @@ nav{
     color: aliceblue;
 }
 
+.separator2{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+	height: 2px;
+	width: 40%;
+	background-color: #656081;
+}
 /*----------- Background -----------*/
 .background{
     display: flex;
