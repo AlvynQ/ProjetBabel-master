@@ -7,7 +7,7 @@ html{
 
 
 body{
-    background-color: #364546;
+    background-color: #0f4c75;
     color: red;
     font-size: 1.4rem;
     height: 100vh;
@@ -25,7 +25,7 @@ body{
 header{
     display: flex;
     align-items: center;
-    background-color: #393b3c;
+    background-color: #1b262c;
     height: 50px;
     justify-content: space-between;
     margin-bottom: 0.2%;
@@ -78,7 +78,7 @@ header{
 nav{
     display: flex;
     align-items: center;
-    background-color: #484848;
+    background-color: #1b262c;
     height: 50px;
     justify-content: space-between;
     border-top:1px solid rgba(27, 25, 25, 0.548);
@@ -99,13 +99,13 @@ nav{
 
 /*----------- Background -----------*/
 .background{
-    height: 75%;
+    height: 80%;
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
     justify-content: center;
-    background-color: #343434;
-    margin-top: 20px;
+    background-color: #173d57;
+    margin-top: 1%;
 
 }
 
@@ -113,8 +113,8 @@ nav{
 
 /*----------- FOOTER -----------*/
 footer{
-    background-color: #4f4c4c;
-    color: #373535;
+    background-color: #1b262c;
+    color: #ffffff;
     padding: 5px 0;
     padding-left: 75px;
 }
