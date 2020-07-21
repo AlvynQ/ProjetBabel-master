@@ -99,7 +99,6 @@ nav{
 
 /*----------- Background -----------*/
 .background{
-    height: 80%;
     display: flex;
     align-items: flex-start;
     flex-wrap: nowrap;
