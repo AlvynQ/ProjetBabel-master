@@ -22,7 +22,8 @@ html{
 }
 
 .infoMag div img{
-    width: 50%;
+    display: inline;
+    width: 60%;
     height: auto;
     border-radius: 5px;
     -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
@@ -32,7 +33,7 @@ html{
 }
 
 .infoMagText{
-    width: 90%;
+    width: 20%;
     text-align: center;
 
 }
@@ -41,8 +42,6 @@ html{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    box-sizing: border-box;
-    
 }
 .infoMag div h1{
     text-align: center;
@@ -58,6 +57,13 @@ html{
     padding: 0;
     font-size: 1.3rem;
 }
-
-
+/*
+.separateurV{
+    height: 275px;
+    margin: auto 0px auto 0px;
+    padding: 0;
+    width: 20px;
+    border-left: 2px rgba(0,0,0,0.5) solid;
+}
+*/
 
