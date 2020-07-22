@@ -4,7 +4,6 @@ html{
 }
 
 body{
-   
     height: 85vh;
 }
 
@@ -17,23 +16,22 @@ height: 90%;
 .categorie{
     margin-top: 5%;
     margin-bottom: 5%;
-    font-size: 1.6rem;
+    font-size: 2rem;
+    text-shadow: 2px 2px #000000a8;
     display: flex;
     flex-direction: row;
     width: 70%;
     height: 70%;
     border-radius: 15px;
-    background-color: #797979; 
+    background-color: #1b262c; 
     justify-content: space-evenly;
 }
 
 .itemsCategorie{
     margin-top: 2%;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
-
 
 .separatorCaterogie{
     margin-top: auto;
@@ -41,17 +39,14 @@ height: 90%;
     display: flex;
 	height: 80%;
 	width: 2px;
-	background-color: #494949;
-}
-
-.itemsCategorie .catSpac{
-    margin-right: 5%;
+	background-color: #a56363;
 }
 
 .styleText{
-    font-size: 1.2rem;
+    margin-top: 30%;
+    font-size: 1.8rem;
+    text-shadow: 1px 1px #000000;
 }
-
 
 .catSpaceL{
 margin-left: 2%;
