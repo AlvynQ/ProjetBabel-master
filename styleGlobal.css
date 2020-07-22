@@ -96,7 +96,7 @@ header{
 }
 
 .imgProfileContainer{
-    width: auto;
+    width: 64px;
     height: 80%;
     display: flex;
     justify-content: center;
